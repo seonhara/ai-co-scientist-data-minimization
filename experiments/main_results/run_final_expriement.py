@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Main entry point for reproducing all figures and tables reported in the paper.
+
+Usage:
+    python run_final_experiment.py
+"""
+
+"""
 Adult Dataset - Data Minimization vs Performance (Portfolio-ready version)
 
 Models:
