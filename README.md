@@ -10,7 +10,13 @@ F1-score across multiple models. Strategy-specific LLM choices are intentional:
 GPT is used for semantically sensitive strategies (P, R), while Copilot is used
 for the structurally deterministic C strategy to reduce stochastic variance.
 
-**Main entry**: `experiments/main_results/run_final_experiment.py`  
+A replication of the vertical data minimization baseline (Staab et al., 2023)
+is included to explicitly contrast feature generalization with our staged
+feature-removal design space.
+
+**Main entry**: `experiments/main_results/run_final_experiment.py` 
+**Reference replication (Staab et al., 2023)**: `experiments/replication/staab2023_vdm/run_replication_iterative.py`
+**Comparison**: `docs/differences_vs_reference.md`
 **Paper artifacts**: `paper/` (manuscript, final figures, tables)  
 **Legacy code**: `experiments/main_results/legacy/` (reference only)
 
