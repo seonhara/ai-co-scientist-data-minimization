@@ -14,10 +14,12 @@ A replication of the vertical data minimization baseline (Staab et al., 2023)
 is included to explicitly contrast feature generalization with our staged
 feature-removal design space.
 
-**Main entry**: `experiments/main_results/run_final_experiment.py` 
-**Reference replication (Staab et al., 2023)**: `experiments/replication/staab2023_vdm/run_replication_iterative.py`
-**Comparison**: `docs/differences_vs_reference.md`
-**Paper artifacts**: `paper/` (manuscript, final figures, tables)  
-**Legacy code**: `experiments/main_results/legacy/` (reference only)
+**Project Structure**
 
+- **Main entry**: `experiments/main_results/run_final_experiment.py`
+- **Reference replication (Staab et al., 2023)**: `experiments/replication/staab2023_vdm/run_replication_iterative.py`
+- **Comparison**: `docs/differences_vs_reference.md`
+- **Paper artifacts**: `paper/` (manuscript, final figures, tables)
+- **Legacy code**: `experiments/main_results/legacy/` (reference only)
+  
 All figures and tables reported in the paper are generated from the main entry script.
